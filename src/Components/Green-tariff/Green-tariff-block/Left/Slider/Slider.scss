@@ -1,0 +1,19 @@
+.slider {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .sliderImage {
+    width: 47%;
+  }
+  .sliderRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
+    .sliderArrow {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

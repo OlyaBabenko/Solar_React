@@ -1,0 +1,52 @@
+@import "../../../assets/fonts";
+
+.clientsBlock {
+  width: 100%;
+
+  .client {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    padding: 50px 0;
+
+    .clientImg {
+      width: 50%;
+    }
+
+    .clientInfoBlock {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+
+      .clientInfo {
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .clientButtonBlock {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+
+        .clientButton {
+          border: 1px solid black;
+          border-radius: 50%;
+          padding: 27px 20px;
+          object-position: right;
+          width: 70px;
+          height: 70px;
+          box-sizing: border-box;
+
+          &:hover {
+            background-color: $yellow;
+          }
+        }
+      }
+    }
+  }
+}

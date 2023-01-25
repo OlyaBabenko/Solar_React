@@ -1,0 +1,18 @@
+@import '../../assets/fonts';
+
+.middleSection {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/image/middle-section/middle-section-bcg.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color:$white;
+
+  .middleSectionTitle {
+    width: 673px;
+    text-align: center;
+  }
+}

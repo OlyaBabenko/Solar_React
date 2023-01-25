@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.middleSection {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/image/middle-section/middle-section-bcg.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+.middleSection .middleSectionTitle {
+  width: 673px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=MiddleSection.css.map */

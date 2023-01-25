@@ -1,0 +1,23 @@
+@import '../../assets/fonts.scss';
+
+.upper {
+  width: 100%;
+  text-align: center;
+  background: url("../../assets/image/upper/upper-background.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+  color:$white;
+
+  .upperText {
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+  .upperTitle {
+    margin: 0
+  }
+}
+
+
+

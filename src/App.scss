@@ -1,0 +1,46 @@
+@import 'assets/fonts';
+
+* {
+  margin: 0;
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $black;
+    //padding: 0 2px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $grey;
+    border-radius: 25px;
+
+  }
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text {
+  @include font-for-text;
+}
+.textSmall {
+  @include font-for-small-text
+}
+.title {
+  @include font-for-h1;
+}
+.discriptor {
+  @include font-for-discriptor;
+}
+.titleH2 {
+  @include font-for-h2
+}
+.titleH3 {
+  @include font-for-h3
+}

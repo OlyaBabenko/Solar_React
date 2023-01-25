@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.upper {
+  width: 100%;
+  text-align: center;
+  background: url("../../assets/image/upper/upper-background.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+  color: #FFFFFF;
+}
+.upper .upperText {
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+.upper .upperTitle {
+  margin: 0;
+}
+
+/*# sourceMappingURL=Upper.css.map */

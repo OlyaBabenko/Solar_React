@@ -1,0 +1,48 @@
+@import '../../../assets/fonts';
+
+.footerApplication {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  .footerInput {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    input {
+      padding: 10px;
+      border: none;
+      border-bottom: 2px solid $white;
+      background: none;
+      color: $white;
+
+      &:focus-visible {
+        border: none;
+        border-bottom: 2px solid $white;
+      }
+
+      &::placeholder {
+        color: $white;
+
+      }
+    }
+  }
+  .footerButton {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+
+    .footerButtonImg {
+      width: 70px;
+      height: auto;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: $yellow;
+      }
+    }
+  }
+}

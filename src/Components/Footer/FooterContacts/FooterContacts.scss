@@ -1,0 +1,14 @@
+@import '../../../assets/fonts';
+
+.footerContacts {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  .contactItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

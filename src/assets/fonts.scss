@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+$font-family: 'Noto Sans', sans-serif;
+$grey: #868585;
+$white: #FFFFFF;
+$black: #303030;
+$yellow: #A9A32A;
+
+@mixin font-bold {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+@mixin font-regular {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+@mixin font-for-h1 {
+  @include font-bold;
+  font-size: 64px;
+}
+@mixin font-for-discriptor {
+  @include font-regular;
+  font-size: 42px;
+}
+@mixin font-for-h2 {
+  @include font-bold;
+  font-size: 24px;
+}
+@mixin font-for-h3 {
+  @include font-bold;
+  font-size: 18px;
+}
+@mixin font-for-text {
+  @include font-regular;
+  font-size: 18px;
+}
+@mixin font-for-small-text {
+  @include font-regular;
+  font-size:14px;
+}
