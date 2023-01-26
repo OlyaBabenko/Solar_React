@@ -1,0 +1,9 @@
+.servicesBlock {
+  display: flex;
+  padding: 50px 0;
+}
+.servicesBlock .servicesBlockImage {
+  width: 50%;
+}
+
+/*# sourceMappingURL=Services-block.css.map */

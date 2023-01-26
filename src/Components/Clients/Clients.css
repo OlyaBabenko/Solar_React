@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.clients {
+  padding: 70px 0;
+  width: 80%;
+}
+.clients .clientsTitle {
+  color: #868585;
+}
+
+/*# sourceMappingURL=Clients.css.map */

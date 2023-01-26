@@ -1,0 +1,20 @@
+.slider {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.slider .sliderImage {
+  width: 47%;
+}
+.slider .sliderRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 47%;
+}
+.slider .sliderRight .sliderArrow {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=Slider.css.map */

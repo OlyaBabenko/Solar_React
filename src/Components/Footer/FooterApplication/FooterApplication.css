@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.footerApplication {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footerApplication .footerInput {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footerApplication .footerInput input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  background: none;
+  color: #FFFFFF;
+}
+.footerApplication .footerInput input:focus-visible {
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+}
+.footerApplication .footerInput input::placeholder {
+  color: #FFFFFF;
+}
+.footerApplication .footerButton {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.footerApplication .footerButton .footerButtonImg {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+.footerApplication .footerButton .footerButtonImg:hover {
+  background-color: #A9A32A;
+}
+
+/*# sourceMappingURL=FooterApplication.css.map */

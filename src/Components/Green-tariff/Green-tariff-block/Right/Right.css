@@ -1,0 +1,12 @@
+.right {
+  width: 45%;
+  box-sizing: border-box;
+}
+.right .rightText {
+  padding-bottom: 20px;
+}
+.right .rightImage {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Right.css.map */

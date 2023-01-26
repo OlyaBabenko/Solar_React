@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.upperButton {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 300px;
+}
+.upperButton .upperButtonImg {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+.upperButton .upperButtonImg:hover {
+  background-color: #A9A32A;
+}
+.upperButton .upperButtonText {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=Upper-button.css.map */

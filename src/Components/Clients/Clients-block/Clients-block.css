@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.clientsBlock {
+  width: 100%;
+}
+.clientsBlock .client {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+  padding: 50px 0;
+}
+.clientsBlock .client .clientImg {
+  width: 50%;
+}
+.clientsBlock .client .clientInfoBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.clientsBlock .client .clientInfoBlock .clientInfo {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.clientsBlock .client .clientInfoBlock .clientButtonBlock {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.clientsBlock .client .clientInfoBlock .clientButtonBlock .clientButton {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 27px 20px;
+  object-position: right;
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+}
+.clientsBlock .client .clientInfoBlock .clientButtonBlock .clientButton:hover {
+  background-color: #A9A32A;
+}
+
+/*# sourceMappingURL=Clients-block.css.map */

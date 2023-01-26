@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+.steps {
+  width: 80%;
+  padding: 50px 0;
+  display: flex;
+  gap: 100px;
+}
+.steps .stepsLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.steps .stepsLeft .titleForSteps {
+  color: #868585;
+}
+
+/*# sourceMappingURL=Steps.css.map */
