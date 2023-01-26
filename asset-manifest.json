@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Solar_React/static/css/main.6202fa89.css",
+    "main.js": "/Solar_React/static/js/main.069fb80b.js",
+    "static/js/787.41a206eb.chunk.js": "/Solar_React/static/js/787.41a206eb.chunk.js",
+    "static/media/upper-background.jpg": "/Solar_React/static/media/upper-background.12501b046cb428220ab8.jpg",
+    "static/media/footer-bcg.png": "/Solar_React/static/media/footer-bcg.db6653087f5c726a9612.png",
+    "static/media/middle-section-bcg.jpg": "/Solar_React/static/media/middle-section-bcg.3ea85cdcfdb770571fde.jpg",
+    "static/media/steps-image.png": "/Solar_React/static/media/steps-image.38e9faebd36d63ace5e3.png",
+    "static/media/our-client1.jpg": "/Solar_React/static/media/our-client1.c31315f3766a293431fd.jpg",
+    "static/media/services-img.jpg": "/Solar_React/static/media/services-img.757f9be63079a4bdaddb.jpg",
+    "static/media/client2.jpg": "/Solar_React/static/media/client2.1887253725ffa5919b7c.jpg",
+    "static/media/image-house.jpg": "/Solar_React/static/media/image-house.952f54fd9f9a156ed802.jpg",
+    "static/media/client3.jpg": "/Solar_React/static/media/client3.cb9be2ccf9a6533eafb6.jpg",
+    "static/media/image-roof.jpg": "/Solar_React/static/media/image-roof.b3faa970a556c2973a06.jpg",
+    "index.html": "/Solar_React/index.html",
+    "main.6202fa89.css.map": "/Solar_React/static/css/main.6202fa89.css.map",
+    "main.069fb80b.js.map": "/Solar_React/static/js/main.069fb80b.js.map",
+    "787.41a206eb.chunk.js.map": "/Solar_React/static/js/787.41a206eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6202fa89.css",
+    "static/js/main.069fb80b.js"
+  ]
+}
